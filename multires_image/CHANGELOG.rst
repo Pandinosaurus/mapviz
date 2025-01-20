@@ -2,6 +2,39 @@
 Changelog for package multires_image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.4.5 (2025-01-20)
+------------------
+
+2.4.4 (2024-12-09)
+------------------
+
+2.4.3 (2024-09-18)
+------------------
+
+2.4.2 (2024-08-12)
+------------------
+
+2.4.1 (2024-08-09)
+------------------
+
+2.4.0 (2024-08-09)
+------------------
+
+2.3.0 (2023-08-24)
+------------------
+
+2.2.2 (2023-06-07)
+------------------
+* Iron Compatibility (`#779 <https://github.com/swri-robotics/mapviz/issues/779>`_)
+* Contributors: David Anthony
+
+2.2.1 (2023-05-30)
+------------------
+* Updating maintainers list (`#778 <https://github.com/swri-robotics/mapviz/issues/778>`_)
+* Merge pull request `#754 <https://github.com/swri-robotics/mapviz/issues/754>`_ from cottsay/python3-shebang
+* Use python3 in mapviz_tile_loader shebang
+* Contributors: David Anthony, Scott K Logan
+
 2.1.0 (2020-10-22)
 ------------------
 * ROS Foxy support (`#695 <https://github.com/swri-robotics/mapviz/issues/695>`_)

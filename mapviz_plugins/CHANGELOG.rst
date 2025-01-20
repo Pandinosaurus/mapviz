@@ -2,6 +2,62 @@
 Changelog for package mapviz_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.4.5 (2025-01-20)
+------------------
+* Fix topic lists (`#833 <https://github.com/swri-robotics/mapviz/issues/833>`_)
+  Fixed problems with topic list display.
+* Contributors: nick-alton
+
+2.4.4 (2024-12-09)
+------------------
+* Add service support for select topic ui (`#832 <https://github.com/swri-robotics/mapviz/issues/832>`_)
+* Contributors: nick-alton
+
+2.4.3 (2024-09-18)
+------------------
+* update plugin subscribers to use all of qos (`#827 <https://github.com/swri-robotics/mapviz/issues/827>`_)
+  Co-authored-by: Ben <benjamin.andrew@swri.org>
+  Co-authored-by: David Anthony <djanthony@gmail.com>
+* Added kludgy install for autogened TopicSelect header that is required if external plugin packages include topic_select.h (`#825 <https://github.com/swri-robotics/mapviz/issues/825>`_)
+* Contributors: DangitBen, Robert Brothers
+
+2.4.2 (2024-08-12)
+------------------
+
+2.4.1 (2024-08-09)
+------------------
+* Code cleanup (`#820 <https://github.com/swri-robotics/mapviz/issues/820>`_)
+  * Switching to plus sign for concatenation
+  * Applying code changes that should have gone in previous release
+* Contributors: David Anthony
+
+2.4.0 (2024-08-09)
+------------------
+* Configurable qos (`#818 <https://github.com/swri-robotics/mapviz/issues/818>`_)
+  * Adding configurable QoS to UI
+  * Changing lookup duration to reduce lag
+  ---------
+  Co-authored-by: Robert Brothers <33141599+rjb0026@users.noreply.github.com>
+* Improve Font Selection Error Handling (`#794 <https://github.com/swri-robotics/mapviz/issues/794>`_)
+* Contributors: David Anthony
+
+2.3.0 (2023-08-24)
+------------------
+
+2.2.2 (2023-06-07)
+------------------
+* Add ros_environment as dependency
+* Iron Compatibility (`#779 <https://github.com/swri-robotics/mapviz/issues/779>`_)
+* Contributors: David Anthony
+
+2.2.1 (2023-05-30)
+------------------
+* Updating maintainers list (`#778 <https://github.com/swri-robotics/mapviz/issues/778>`_)
+* Fix Plan Route plugin in ROS2 Humble (`#765 <https://github.com/swri-robotics/mapviz/issues/765>`_)
+* Merge pull request `#759 <https://github.com/swri-robotics/mapviz/issues/759>`_ from agyoungs/fix-marker-plugin-subs
+* Check topic for type to determine which subscription callback to trigger
+* Contributors: Alex Youngs, David Anthony, P. J. Reed
+
 2.1.0 (2020-10-22)
 ------------------
 * Constrain the minimum line and point marker sizes to be 1 pixel wide. (`#704 <https://github.com/swri-robotics/mapviz/issues/704>`_)
